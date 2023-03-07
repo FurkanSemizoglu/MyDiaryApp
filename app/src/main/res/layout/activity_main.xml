@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#7FB3FA"
+    tools:context=".activities.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="169dp"
+        android:layout_height="134dp"
+        app:srcCompat="@drawable/diary_icon"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:backgroundTint="#fff"
+        android:background="@drawable/corner"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+
+        >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOŞGELDİNİZ  "
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+        <EditText
+            android:id="@+id/editTextEmailAddress"
+            android:layout_width="215dp"
+            android:layout_height="41dp"
+            android:background="@drawable/corner"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="20dp"
+
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="284dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="213dp"
+            android:layout_height="41dp"
+            android:background="@drawable/corner"
+            android:ems="10"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="354dp" />
+
+
+        <TextView
+            android:id="@+id/signUpText"
+            android:layout_width="47dp"
+            android:layout_height="20dp"
+            android:onClick="clickedSıgnUp"
+            android:text="Üye Ol"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="75dp"
+            tools:layout_editor_absoluteX="266dp"
+            tools:layout_editor_absoluteY="405dp" />
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/corner"
+            android:onClick="clickedLogIn"
+            android:text="Giriş Yap"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="436dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_section"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>

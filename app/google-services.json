@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589177815496",
+    "project_id": "mydiaryapp-99d83",
+    "storage_bucket": "mydiaryapp-99d83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589177815496:android:7e71e64c85e2a53e0100fd",
+        "android_client_info": {
+          "package_name": "com.furkasm.mydiaryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589177815496-n7rlv00sfat9kvjg9uugh2n9pujqhjn5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiBXKHat_AcqoEjwRbZ6oBZabc49Tfy14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589177815496-n7rlv00sfat9kvjg9uugh2n9pujqhjn5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
