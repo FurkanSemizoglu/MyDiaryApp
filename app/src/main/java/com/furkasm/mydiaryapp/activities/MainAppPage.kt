@@ -18,7 +18,11 @@ class MainAppPage : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        fragmentBeginner(ProfileFragment())
+        fragmentBeginner(HomeFragment())
+
+
+
+
 
         binding.bottomNavigationView.setOnItemSelectedListener {
             when(it.itemId){
@@ -26,10 +30,6 @@ class MainAppPage : AppCompatActivity() {
                 R.id.searching_icon -> fragmentBeginner(SearchAreaFragment())
                 R.id.profile_icon -> fragmentBeginner(ProfileFragment())
             }
-
-
-
-
             true
         }
 

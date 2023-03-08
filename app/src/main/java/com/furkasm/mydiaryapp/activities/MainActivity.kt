@@ -7,6 +7,7 @@ import android.widget.Toast
 import com.furkasm.mydiaryapp.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
@@ -45,7 +46,6 @@ class MainActivity : AppCompatActivity() {
                 }.addOnFailureListener {
                     Toast.makeText(this@MainActivity, it.localizedMessage, Toast.LENGTH_LONG).show()
                 }
-
             }else{
                 Toast.makeText(this@MainActivity,"Empty Area",Toast.LENGTH_SHORT).show()
             }

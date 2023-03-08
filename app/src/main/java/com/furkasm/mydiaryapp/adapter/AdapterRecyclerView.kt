@@ -1,11 +1,8 @@
-package com.furkasm.mydiaryapp
+package com.furkasm.mydiaryapp.adapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.Recycler
-import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.furkasm.mydiaryapp.databinding.MainHomeFragmentRowBinding
 
 class AdapterRecyclerView(private val postList: ArrayList<StorySaver>) :RecyclerView.Adapter<AdapterRecyclerView.RowHolder>(){
